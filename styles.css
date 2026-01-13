@@ -23,11 +23,10 @@ body {
 
 /* Logo */
 .logo-container {
-    margin-bottom: -10px;
+    margin-bottom: 12px;
     display: flex;
     justify-content: center;
 }
-
 
 .logo {
     max-width: 120px;
@@ -37,13 +36,13 @@ body {
     object-fit: contain;
 }
 
-/* Company Name */
-.company-name {
-    font-size: 28px;
-    font-weight: 700;
+/* Tagline */
+.tagline {
+    font-size: 18px;
+    font-weight: 600;
     color: #1a1a1a;
     margin-bottom: 16px;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
 }
 
 /* Description */
@@ -144,8 +143,12 @@ body {
         max-width: 240px;
     }
 
-    .company-name {
-        font-size: 24px;
+    .logo-container {
+        margin-bottom: -40px;
+    }
+
+    .tagline {
+        font-size: 16px;
     }
 
     .description {
